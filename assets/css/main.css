@@ -3239,13 +3239,13 @@
 		-webkit-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
 		-ms-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
 		transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
-		background-color: #ffffff;
-		color: #636363;
+		background-color: #ff0000; /* no clue lol */
+		color: #d9d9d9; /* Text color */
 		position: absolute;
 		width: 64em;
 		max-width: calc(100% - 4em);
 		padding: 1em;
-		background-color: #f7f7f7;
+		background-color: #1a1a1a; /* BG Color of navigational bar */
 		border-top-left-radius: 0.25em;
 		border-top-right-radius: 0.25em;
 		cursor: default;
@@ -3253,23 +3253,23 @@
 	}
 
 		#nav input, #nav select, #nav textarea {
-			color: #636363;
+			color: #ff0000; /* 636363 */
 		}
 
 		#nav a:hover {
-			color: #636363;
+			color: #000000; /*Hover text color */
 		}
 
 		#nav strong, #nav b {
-			color: #636363;
+			color: #ff0000;
 		}
 
 		#nav h1, #nav h2, #nav h3, #nav h4, #nav h5, #nav h6 {
-			color: #636363;
+			color: #ff0000;
 		}
 
 		#nav blockquote {
-			border-left-color: #dddddd;
+			border-left-color: #dddddd; /*dddddd*/
 		}
 
 		#nav code {
@@ -3317,11 +3317,11 @@
 				}
 
 					#nav ul li a:hover {
-						background-color: rgba(222, 222, 222, 0.25);
+						background-color: #636363; /* Hover text color*/
 					}
 
 					#nav ul li a.active {
-						background-color: #ffffff;
+						background-color: #666666; /* Selected box */
 						box-shadow: none;
 					}
 
@@ -3329,7 +3329,7 @@
 			position: fixed;
 			top: 0;
 			padding: 0.5em 1em;
-			background-color: rgba(247, 247, 247, 0.95);
+			background-color: #1a1a1a; /*secondary bg color*/
 			border-top-left-radius: 0;
 			border-top-right-radius: 0;
 			z-index: 10000;
