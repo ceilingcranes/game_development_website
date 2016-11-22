@@ -1623,11 +1623,11 @@
 	}
 	/* Background Color */
 	body {
-		background-color: #0c0d27; /* 935d8c */
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #0e0305 15%, #0b0911 85%);
+		background-color: #000000; /* 935d8c */
+		/*background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #0e0305 15%, #0b0911 85%);
 		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #0e0305 15%, #0b0911 85%);
 		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #0e0305 15%, #0b0911 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #0e0305 15%, #0b0911 85%);
+		background-image: url("images/overlay.png"), linear-gradient(45deg, #0e0305 15%, #0b0911 85%);*/
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -1644,7 +1644,7 @@
 /* Type */
 
 	body {
-		background-color: #935d8c;
+		background-color: #000000;
 		color: rgba(255, 255, 255, 0.65);
 	}
 
@@ -3245,7 +3245,7 @@
 		width: 64em;
 		max-width: calc(100% - 4em);
 		padding: 1em;
-		background-color: #1a1a1a; /* BG Color of navigational bar */
+		background-color: #000000; /* BG Color of navigational bar */
 		border-top-left-radius: 0.25em;
 		border-top-right-radius: 0.25em;
 		cursor: default;
