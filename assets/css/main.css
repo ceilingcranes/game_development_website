@@ -3242,8 +3242,8 @@
 		background-color: #dddddd; /* no clue lol */
 		color: #d9d9d9; /* Text color */
 		position: absolute;
-		width: 64em;
-		max-width: calc(100% - 4em);
+		width: 100%;
+		/*max-width: calc(100% - 4em);*/
 		padding: 1em;
 		background-color: #000000; /* BG Color of navigational bar */
 		border-top-left-radius: 0.25em;
@@ -3328,7 +3328,7 @@
 		#nav.alt {
 			position: fixed;
 			top: 0;
-			padding: 0.5em 1em;
+			/*padding: 0.5em 1em;*/
 			background-color: #1a1a1a; /*secondary bg color*/
 			border-top-left-radius: 0;
 			border-top-right-radius: 0;
@@ -3361,6 +3361,9 @@
 		background-color: #000000;
 		color: #f2f2f2;/*636363*/
 		border-radius: 0.25em;
+		/*width : 64em;*/
+		padding : 0.5em 6em;
+		/*max-width: calc(100% - 4em);*/
 	}
 
 		#main input, #main select, #main textarea {
@@ -3785,9 +3788,9 @@
 /* Wrapper */
 
 	#wrapper {
-		width: 64em;
-		max-width: calc(100% - 4em);
-		margin: 0 auto;
+		width: 100%;
+		/*max-width: calc(100% - 4em);*/
+		/*margin: 0 auto;*/
 	}
 
 		@media screen and (max-width: 480px) {
